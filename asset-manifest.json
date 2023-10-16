@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Game-App/static/css/main.3d0943ce.css",
+    "main.js": "/Game-App/static/js/main.0e9f250b.js",
+    "static/media/banner-bg.jpg": "/Game-App/static/media/banner-bg.f41cb78948354a14694e.jpg",
+    "static/media/popular-02.jpg": "/Game-App/static/media/popular-02.4ccab5053dc3ac9400fb.jpg",
+    "static/media/popular-01.jpg": "/Game-App/static/media/popular-01.d591ee7091c3349e3472.jpg",
+    "static/media/popular-04.jpg": "/Game-App/static/media/popular-04.b68fb4322ccb2976873d.jpg",
+    "static/media/popular-03.jpg": "/Game-App/static/media/popular-03.1c8955f99df2b3b94391.jpg",
+    "index.html": "/Game-App/index.html",
+    "main.3d0943ce.css.map": "/Game-App/static/css/main.3d0943ce.css.map",
+    "main.0e9f250b.js.map": "/Game-App/static/js/main.0e9f250b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d0943ce.css",
+    "static/js/main.0e9f250b.js"
+  ]
+}
