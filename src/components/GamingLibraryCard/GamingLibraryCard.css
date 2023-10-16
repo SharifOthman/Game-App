@@ -1,0 +1,27 @@
+.gaming-library-card{
+    flex: 1 1 100%; /*  100:تعني كل كارد ياخذ سطر لوحدو                       */
+}
+
+.gaming-library-card ul{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-primary);
+    padding: calc(var(--padding-primary)/2) 0;/*0:مشان بس ياخد من فوق وتحت*/
+}
+
+.gaming-library-card h4{
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .gaming-library-card ul {
+      display: grid;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .gaming-library-card ul li{
+      padding: 20px;
+    }
+  }

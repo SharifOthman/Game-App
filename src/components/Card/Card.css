@@ -1,0 +1,52 @@
+.most-popular-item{
+    flex: 1 25%;/* مشان يكبر كل كارد*/
+    /* 25:مشان كل كارد ياخد  25 بالمية من مساحة الاب */
+}
+
+.card-wrapper{
+    background-color: var(--color-dark);
+    border-radius: var(--border-reduis-primary);
+    padding:calc(var(--padding-primary)/2);
+    margin:calc(var(--margin-primary)/5) ;
+    position: relative;
+    overflow: hidden;
+
+}
+.most-popular-item-image{
+    width: 100%;
+    border-radius:calc( var(--border-reduis-primary)/4);
+    margin-bottom:calc(var(--margin-primary)/2); ;
+
+}
+.most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.most-popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.card-wrapper::before{
+  content:'';
+  position: absolute;
+  background-color: rgba(225, 37, 109, 0.8);
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  border-radius:calc( var(--border-reduis-primary)/4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  transform: translateX(calc(-100% - 26px)); /*     لانو اذا حطينا 100 لحالها لح تطلع  عند البادينغ     */
+  
+}
+
+.card-wrapper:hover::before {
+    content: 'Game';
+    transform: translateX(0);
+  }
